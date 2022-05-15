@@ -58,4 +58,5 @@ export const MyForm = () => {
 
 MyForm.propTypes = {
   values: PropTypes.object,
+  contacts: PropTypes.array,
 };

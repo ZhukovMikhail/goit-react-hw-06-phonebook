@@ -1,5 +1,4 @@
 import './App.styled.jsx';
-import PropTypes from 'prop-types';
 import { Container } from 'App.styled';
 import { MyForm } from 'components/Form/Form.jsx';
 import { Contacts } from 'components/Contacts/Contacts.jsx';
@@ -19,7 +18,3 @@ const App = () => {
 };
 
 export default App;
-
-App.propTypes = {
-  data: PropTypes.object,
-};

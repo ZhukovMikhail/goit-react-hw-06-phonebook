@@ -43,6 +43,6 @@ export const Contacts = () => {
 };
 
 Contacts.prototype = {
+  filteredContacts: PropTypes.array,
   contacts: PropTypes.array,
-  onDelete: PropTypes.func,
 };
